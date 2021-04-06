@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
+body{
+    background-image: url(back1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+img{
+    transform: rotate(35deg);
+    width: 100px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    text-align:end;
+    margin-top: -10vh;
+    margin-right: 10vh;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight:normal;
+    padding: 16px 30px;
+}
+a:hover{
+    color:darkgrey;
+}
+#home{
+    justify-content: center;
+    text-align: center;
+    margin-top: 18%;
+    line-height: 0.9;
+}
+.Name{
+    font-family: New Tegomin;
+    font-size: 70px;
+    color: yellow;
+}
+.Tagline{
+    font-family: Syne Mono;
+    color: azure;
+    margin-bottom: 2%;
+}
+.button{
+    padding: 4px 20px;
+    text-decoration: none;
+    color: black;
+    border: black 1px solid;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 57);
+}
+.button:hover{
+    background-color: rgb(250, 234, 10);
+    color: balck;
+}
