@@ -8,17 +8,54 @@
     <link rel="stylesheet" href="Site.css">
 </head>
 <body>
+<div class="whole">
+
     <header>
         <a href="#" class="logo"><img src="logo1.png"></a>
         <div class="nav">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">FeedBack</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Menu 
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Fish Makhani</a>
+                          <a href="#">Mughlai Fish Curry</a>
+                          <a href="#">Fish Mappas</a>
+                          <a href="#">Butter Chicken</a>
+                          <a href="#">Tandoori Chicken</a>
+                          <a href="#">Chicken Tikka Masala</a>
+                        </div>
+                </li>
+                
+                <li>
+                    <!--
+                    <div class="dropdown">
+                        <button class="dropbtn">FeedBack 
+                        </button>
+                        <div class="dropdown-content">
+                            <textarea rows="4" cols="50" required placeholder="Write something..." STYLE="background-color: #d3d0d01c;"></textarea>
+                        </div></li>
+                    -->
+                    <a href="#">FeedBack</a>
+                </li>
+                <li>                    
+                    <div class="dropdown">
+                    <button class="dropbtn">Contact Us 
+                    <i class="far fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="https://www.instagram.com/kartheek_pndr/">Instagram</a>
+                      <a href="https://www.linkedin.com/in/kartheek-panduru-3a76b5160/">Linkedin</a>
+                      <a href="https://github.com/kartheek-panduru">Github</a>
+                    </div></li>
             </ul>
         </div>
+
     </header>
+
     <section id="home">
         <div class="Name">NEMO</div>
         <div class='Tagline'>
@@ -26,5 +63,6 @@
         </div>
         <a href="#" class="button">Reserve a Table</a>
     </section>
+</div>
 </body>
 </html>
